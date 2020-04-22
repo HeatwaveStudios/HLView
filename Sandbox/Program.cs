@@ -16,7 +16,7 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            var file = @"F:\Steam\SteamApps\common\Half-Life\valve\models\hgrunt.mdl";
+            var file = @"F:\SteamLibrary\steamapps\common\Half-Life\valve\models\hgrunt.mdl";
             var mdl = MdlFile.FromFile(file);
         }
     }
